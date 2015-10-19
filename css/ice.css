@@ -1,0 +1,29 @@
+path {
+  transition: fill 1.5s, fill-opacity 1.5s;
+  -webkit-transition: fill 1.5s, fill-opacity 1.5s;
+  transition-timing-function: linear;
+  -webkit-transition-timing-function: linear;
+
+  /*fill: #00A9E6;*/ /* first blue */
+  /*fill: #1267F1;*/ /* too blue...try something else */
+  fill: #FF0202;
+  fill-opacity: 0.5;
+}
+path[data-show="yes"] {
+  fill-opacity: 0.5;
+}
+path[data-show="no"] {
+  fill-opacity: 0;
+}
+div.year {
+  background: #fff;
+  color: #aaa;
+  font-size: 2em;
+  position: absolute;
+  left: 50%;
+  margin: 0 0 0 -2.5em;
+  text-align: center;
+  top: 1em;
+  width: 5em;
+  z-index: 2;
+}
